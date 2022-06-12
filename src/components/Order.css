@@ -1,0 +1,23 @@
+.order {
+  padding: 40px;
+  margin: 20px 0;
+  border: 1px solid lightgrey;
+  background-color: white;
+  position: relative;
+}
+
+.order-id {
+  position: absolute;
+  top: 40px;
+  right: 200px;
+}
+
+.order-total {
+  position: absolute;
+  right: 200px;
+  font-weight: 500;
+}
+
+.order-date {
+  margin-bottom: 30px;
+}
