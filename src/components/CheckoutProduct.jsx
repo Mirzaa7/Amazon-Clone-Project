@@ -1,6 +1,7 @@
 import React from "react";
 import { useStateValue } from "../StateProvider";
 import "./CheckoutProduct.css";
+import { motion } from "framer-motion";
 
 function CheckoutProduct({ id, image, title, price, rating, hidden }) {
   const [{ basket }, dispatch] = useStateValue();

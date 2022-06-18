@@ -39,8 +39,8 @@ function Orders() {
         <h1>Your Orders</h1>
       )}
       <div className="orders-element">
-        {orders?.map((order) => (
-          <Order order={order}></Order>
+        {orders?.map((order, index) => (
+          <Order key={index} order={order}></Order>
         ))}
       </div>
     </div>

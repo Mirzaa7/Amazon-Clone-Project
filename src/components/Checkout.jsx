@@ -17,9 +17,10 @@ function Checkout() {
         <div>
           <h2 className="checkout-title">Your shopping Basket</h2>
         </div>
-        {basket.map((basketItem) => {
+        {basket.map((basketItem, index) => {
           return (
             <CheckoutProduct
+              key={index}
               id={basketItem.id}
               image={basketItem.image}
               title={basketItem.title}

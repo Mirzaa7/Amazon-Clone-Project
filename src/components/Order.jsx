@@ -13,8 +13,9 @@ function Order({ order }) {
           <strong>OrderID:</strong> {order.id}
         </small>
       </p>
-      {order.data.basket?.map((basketItem) => (
+      {order.data.basket?.map((basketItem, index) => (
         <CheckoutProduct
+          key={index}
           id={basketItem.id}
           image={basketItem.image}
           title={basketItem.title}
