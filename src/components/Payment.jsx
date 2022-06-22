@@ -25,7 +25,8 @@ function Payment() {
 
         <h5>
           NOTE: The delivery address and the card details have no real function
-          because this is a Amazon clone.
+          because this is a Amazon clone. You can type anything and press the
+          buy now button.
         </h5>
 
         <div className="payment-section">

@@ -40,6 +40,13 @@ function Login() {
           </span>
         }
         <h6>
+          You can create your own testing account or you can use the one that I
+          created:
+        </h6>
+        <h6>Email: test5@gmail.com</h6>
+        <h6>Password: Test5-123456</h6>
+        <br></br>
+        <h6>
           NOTE: When testing the sign in function, instead of a generic password
           like "123", use a stronger password like with upper and lower case
           letters, numbers, symbols, etc. Because browsers like Google Chrome
